@@ -4,8 +4,9 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>com.msvvdv</groupId>
-        <artifactId>bo-common</artifactId>
+        <artifactId>bo-common-dependencies</artifactId>
         <version>1.0</version>
+        <relativePath>../bo-common-dependencies/</relativePath>
     </parent>
     <artifactId>bo-common-parent</artifactId>
     <version>${parent.version}</version>
@@ -13,6 +14,14 @@
 
     <name>bo-common-parent</name>
     <description>Demo project for Spring Boot</description>
+
+    <repositories>
+        <repository>
+            <id>nexus</id>
+            <name>nexus</name>
+            <url>http://nexus-ms.herokuapp.com/content/repositories/releases</url>
+        </repository>
+    </repositories>
     <distributionManagement>
         <repository>
             <id>nexus</id>
