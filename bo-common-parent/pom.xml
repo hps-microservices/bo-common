@@ -11,10 +11,8 @@
     <artifactId>bo-common-parent</artifactId>
     <version>${parent.version}</version>
     <packaging>pom</packaging>
-
     <name>bo-common-parent</name>
-    <description>Demo project for Spring Boot</description>
-
+    <description>Main parent for Box-Office applications</description>
     <repositories>
         <repository>
             <id>nexus</id>

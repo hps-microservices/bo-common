@@ -7,7 +7,7 @@
     <version>1.0</version>
     <packaging>pom</packaging>
     <name>bo-common</name>
-    <description>Demo project for Spring Boot</description>
+    <description>Box Office</description>
     <properties>
         <maven-compiler-plugin.version>3.7.0</maven-compiler-plugin.version>
     </properties>
