@@ -11,7 +11,7 @@
     <version>${parent.version}</version>
     <packaging>pom</packaging>
     <name>bo-common-dependencies</name>
-    <description>Demo project for Spring Boot</description>
+    <description>Box Office Dependencies</description>
     <properties>
         <javax.inject.version>1</javax.inject.version>
         <!-- Apache Libs -->
@@ -67,14 +67,14 @@
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
-
-            <!-- BeanValidation and Hibernate Validator. Necessário para o start do springboot quando usa com yml -->
+            <!-- BeanValidation and Hibernate Validator.
+                 It's necessary to start springboot when  we use with yml file.
+             -->
             <dependency>
                 <groupId>org.hibernate</groupId>
                 <artifactId>hibernate-validator</artifactId>
                 <version>${hibernate-validator.version}</version>
             </dependency>
-
             <!--Apache Libs-->
             <dependency>
                 <groupId>commons-validator</groupId>
@@ -91,7 +91,6 @@
                 <artifactId>commons-collections4</artifactId>
                 <version>${apache.commons-collections.version}</version>
             </dependency>
-
             <!-- Tests -->
             <dependency>
                 <groupId>br.com.six2six</groupId>
@@ -105,7 +104,6 @@
                 <version>${lombok}</version>
                 <scope>provided</scope>
             </dependency>
-
             <!--Swagger-->
             <dependency>
                 <groupId>io.springfox</groupId>
@@ -134,7 +132,6 @@
                 <artifactId>javax.inject</artifactId>
                 <version>${javax.inject.version}</version>
             </dependency>
-
             <!-- QueryDSL -->
             <dependency>
                 <groupId>com.querydsl</groupId>
@@ -151,8 +148,7 @@
                 <artifactId>querydsl-mongodb</artifactId>
                 <version>${querydsl}</version>
             </dependency>
-
-            <!-- POI - Trabalhando com planilhas -->
+            <!-- POI - Working with sheets  -->
             <dependency>
                 <groupId>org.jxls</groupId>
                 <artifactId>jxls</artifactId>
@@ -163,7 +159,6 @@
                 <artifactId>jxls-poi</artifactId>
                 <version>${jxls.poi.version}</version>
             </dependency>
-
             <!-- Testes -->
             <dependency>
                 <groupId>junit</groupId>
